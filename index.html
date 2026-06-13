@@ -527,22 +527,42 @@
 
   <div class="projects-grid">
 
+    <!-- Project 0 -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-type">Make.com · Jira · Monday</span>
+      </div>
+      <div class="project-body">
+        <h3>Automated Jira-Monday Sync Engine</h3>
+        <p>Multi-platform project management sync with automated data integrity — eliminating manual entry across Jira, Monday.com, and Google Sheets.</p>
+        <ul class="project-highlights">
+          <li>Bidirectional Jira ↔ Monday.com sync with Upsert logic</li>
+          <li>Handles status reversals — no duplicate rows ever</li>
+          <li>Router-based conditional branching with numeric filters</li>
+          <li>Reduced manual tracking time by ~15 minutes per ticket</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/10u6-rDGl23k-CTDH0jFlAw8MzcNqpSMW/view" target="_blank" class="link-btn">Demo →</a>
+        </div>
+      </div>
+    </div>
+
     <!-- Project 1 -->
     <div class="project-card">
       <div class="project-header">
-        <span class="project-type">Python · API</span>
+        <span class="project-type">n8n · OpenAI · RAG</span>
       </div>
       <div class="project-body">
-        <h3>Jira → Google Sheets Sync Engine</h3>
-        <p>A Python script that fetches live Jira issues via REST API and syncs them to CSV and Google Sheets — automatically, without duplicates.</p>
+        <h3>AI Chatbot Agent</h3>
+        <p>Automated client inquiry handling across WhatsApp, website, and Instagram using a RAG-powered AI agent with persistent memory.</p>
         <ul class="project-highlights">
-          <li>Key-based deduplication — no duplicate rows on status reversal</li>
-          <li>Auto-generated Summary sheet with status &amp; priority counts</li>
-          <li>Secure credentials via .env — excluded from version control</li>
-          <li>Error handling with informative failure messages</li>
+          <li>n8n + ChatGPT API + Postgres memory + RAG Agent</li>
+          <li>Reduced manual replies by 80%</li>
+          <li>Instant 24/7 responses across multiple platforms</li>
+          <li>Gmail integration for escalation handling</li>
         </ul>
         <div class="project-links">
-          <a href="https://github.com/astrashehzy/Jira-Sync" target="_blank" class="link-btn">GitHub →</a>
+          <a href="https://drive.google.com/file/d/17-IrQwTHFj-JTjvsS-G3itLT4epl9XOQ/view" target="_blank" class="link-btn">Demo →</a>
         </div>
       </div>
     </div>
@@ -550,56 +570,131 @@
     <!-- Project 2 -->
     <div class="project-card">
       <div class="project-header">
-        <span class="project-type">Make.com · Automation</span>
+        <span class="project-type">Make.com · Gmail · OpenAI</span>
       </div>
       <div class="project-body">
-        <h3>Multi-Platform Lifecycle Sync Engine</h3>
-        <p>A Make.com automation that monitors Jira ticket movements and keeps Monday.com and Google Sheets perfectly in sync — even on status reversals.</p>
+        <h3>AI Gmail Respondent</h3>
+        <p>Automatically replies to incoming emails with context-aware AI responses — no manual follow-up needed.</p>
         <ul class="project-highlights">
-          <li>Bidirectional Jira ↔ Monday.com sync with Upsert logic</li>
-          <li>Advanced numeric filters &amp; bundle validation</li>
-          <li>100% duplicate elimination across all platforms</li>
-          <li>Real-time Google Sheets reporting with formula-based counts</li>
+          <li>Make.com + ChatGPT API + Gmail integration</li>
+          <li>Saved 3–5 hours/week on email follow-ups</li>
+          <li>Personalized, context-aware responses per email</li>
         </ul>
         <div class="project-links">
-          <a href="https://drive.google.com/file/d/10u6-rDGl23k-CTDH0jFlAw8MzcNqpSMW/view?usp=drive_link" target="_blank" class="link-btn">Demo Video →</a>
+          <a href="https://drive.google.com/file/d/1NYmKbSHp8OgXgwkUzJovE93KG2YHqWsB/view" target="_blank" class="link-btn">Demo →</a>
         </div>
       </div>
     </div>
 
     <!-- Project 3 -->
-<div class="project-card">
-  <div class="project-header">
-    <span class="project-type">FastAPI · GHL · Python</span>
-  </div>
-  <div class="project-body">
-    <h3>GHL Lead Validation Gateway</h3>
-    <p>Real-time webhook receiver that validates and deduplicates GoHighLevel leads using FastAPI and Pydantic — connected to live GHL instance.</p>
-    <ul class="project-highlights">
-      <li>Live GHL webhook integration via ngrok tunnel</li>
-      <li>Pydantic data validation on incoming lead payload</li>
-      <li>Upsert logic — duplicate emails detected and updated, not duplicated</li>
-      <li>O(1) email index lookup for scalable deduplication</li>
-    </ul>
-    <div class="project-links">
-      <a href="https://github.com/astrashehzy/GHL-FastAPI-Webhook" target="_blank" class="link-btn">GitHub →</a>
-      <a href="https://www.loom.com/share/bdda363f7ee34ab9819a04ba2d8987ff" target="_blank" class="link-btn">Demo →</a>
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-type">Make.com · Google Forms · Gmail</span>
+      </div>
+      <div class="project-body">
+        <h3>AI Lead Follow-up Emails</h3>
+        <p>Automated thank-you email system triggered instantly on lead form submission — improving engagement without manual effort.</p>
+        <ul class="project-highlights">
+          <li>Google Forms → ChatGPT → Gmail pipeline</li>
+          <li>Leads receive personalized email instantly on submission</li>
+          <li>Zero manual intervention after setup</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1uER-dD2QZBF80aGWOxlF4-D59b24JGrA/view" target="_blank" class="link-btn">Demo →</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+
     <!-- Project 4 -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-type">n8n · OpenAI · Slack · Airtable</span>
+      </div>
+      <div class="project-body">
+        <h3>Smart Feedback Automaton</h3>
+        <p>Auto-categorizes customer feedback into Complaint, Compliment, or Feature Request — and routes it to the correct team instantly.</p>
+        <ul class="project-highlights">
+          <li>100% automated triage with under 8 second processing</li>
+          <li>Real-time Slack alerts per category</li>
+          <li>Auto emails + all data logged in Airtable</li>
+          <li>n8n + OpenAI GPT + Slack + Gmail</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1DNN6L_KtZHUXPdhQby1oF_LLxJsj1hjr/view" target="_blank" class="link-btn">Demo →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-type">n8n · Webhook · JavaScript</span>
+      </div>
+      <div class="project-body">
+        <h3>Instagram Lead to Airtable Pipeline</h3>
+        <p>Captures any web form submission and saves it directly to Airtable in real time — reusable for any platform or form.</p>
+        <ul class="project-highlights">
+          <li>n8n Webhook + HTTP Request + JavaScript + Airtable</li>
+          <li>Zero-code form to database sync</li>
+          <li>Instant, reliable, reusable for any form source</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1u_xQZmqKiX_XdhpPvv8cuoP02KOKRHqL/view" target="_blank" class="link-btn">Demo →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 6 -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-type">Python · API</span>
+      </div>
+      <div class="project-body">
+        <h3>Jira → Google Sheets Sync Engine</h3>
+        <p>A Python script that fetches live Jira issues via REST API and syncs them to CSV and Google Sheets automatically, without duplicates.</p>
+        <ul class="project-highlights">
+          <li>Key-based deduplication — no duplicate rows on status reversal</li>
+          <li>Auto-generated Summary sheet with status & priority counts</li>
+          <li>Secure credentials via .env — excluded from version control</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/astrashehzy/Jira-Sync" target="_blank" class="link-btn">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 7 -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-type">FastAPI · GHL · Python</span>
+      </div>
+      <div class="project-body">
+        <h3>GHL Lead Validation Gateway</h3>
+        <p>Real-time webhook receiver that validates and deduplicates GoHighLevel leads using FastAPI and Pydantic.</p>
+        <ul class="project-highlights">
+          <li>Live GHL webhook integration via ngrok tunnel</li>
+          <li>Pydantic data validation on incoming lead payload</li>
+          <li>O(1) email index lookup for scalable deduplication</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/astrashehzy/GHL-FastAPI-Webhook" target="_blank" class="link-btn">GitHub →</a>
+          <a href="https://www.loom.com/share/bdda363f7ee34ab9819a04ba2d8987ff" target="_blank" class="link-btn">Demo →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 8 -->
     <div class="project-card">
       <div class="project-header">
         <span class="project-type">n8n · YouTube API · AI</span>
       </div>
       <div class="project-body">
         <h3>YouTube Content Automation Pipeline</h3>
-        <p>An n8n workflow that auto-detects new YouTube uploads and generates platform-specific captions using AI — saving hours of manual content work.</p>
+        <p>An n8n workflow that auto-detects new YouTube uploads and generates platform-specific captions using AI — zero manual work required.</p>
         <ul class="project-highlights">
-          <li>Scheduled YouTube API polling — checks for new videos every 2 hours</li>
-          <li>AI generates YouTube, Instagram and LinkedIn captions automatically</li>
+          <li>Scheduled YouTube API polling every 2 hours</li>
+          <li>AI generates YouTube, Instagram and LinkedIn captions</li>
           <li>Outputs saved to Google Sheets for team review</li>
-          <li>Zero manual intervention after setup</li>
         </ul>
         <div class="project-links">
           <a href="https://github.com/astrashehzy/youtube-content-automation" target="_blank" class="link-btn">GitHub →</a>
@@ -607,6 +702,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </section>
 
